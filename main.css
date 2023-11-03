@@ -1,0 +1,282 @@
+@font-face {
+    font-face-name: Montserrat;
+    src: url('/static/fonts/Montserrat-Regular.ttf');
+}
+
+.box {
+    width: 100%;
+    height: 400px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Montserrat, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    -webkit-box-shadow: 0px 0px 18px 5px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 0px 18px 5px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 0px 18px 5px rgba(34, 60, 80, 0.2) inset;
+}
+
+.paragraph {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: .2px;
+}
+
+.header2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: .2px;
+}
+
+.header3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: .1px;
+}
+
+.header5 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: .1px;
+}
+
+.button {
+    background-color: #23A6F0;
+    color: #fff;
+
+    padding: 15px 25px;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252B42;
+}
+
+section {
+    width: 100%;
+    height: 889px;
+}
+
+/* 1 SECTION */
+
+#firstWrapper {
+    background-image: linear-gradient(90deg, #000 0.13%, #000 0.14%, rgba(0, 0, 0, 0.00) 99.56%),
+    url('/static/images/section_1.png');
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    color: #fff;
+}
+
+.header__logo {
+    padding: 13px 42px 13px 0;
+}
+
+.header__logo_link {
+    text-decoration: none;
+}
+
+.header__navMenu {
+    display: flex;
+    gap: 240px;
+    align-items: center;
+}
+
+.header__navMenu_pagesWrapper {
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}
+
+.header__navMenu_auth {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner {
+    width: 481px;
+    padding: 112px 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__header5 {
+    margin-bottom: 35px;
+}
+
+.header5_blue {
+    color: #23A6F0;
+}
+
+.banner__text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: .2px;
+
+    max-width: 352px;
+    margin-bottom: 35px;
+}
+
+.banner__text_white {
+    color: #fff;
+}
+
+.banner__text_big {
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+
+    max-width: 542px;
+}
+
+.banner__button {
+    width: 133px;
+}
+
+/* 2 SECTION */
+
+.advice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 160px 0;
+    gap: 80px;
+}
+
+.advice__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.paragraphWrapper {
+    width: 469px;
+    text-align: center;
+}
+
+.advice__text_blue {
+    color: #23A6F0;
+}
+
+.advice__text_white {
+    color: #fff;
+}
+
+.advice__cardsBlock {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.adviceCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    width: 328px;
+    height: 292px;
+    background-color: #fff;
+    padding: 35px 40px;
+}
+
+.roundedSquare {
+    width: 70px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.red {
+    background-color: #E74040;
+}
+
+.header5_black {
+    color: #000;
+}
+
+.strip {
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+}
+
+.strip_red {
+    background-color: #E74040;
+}
+
+.adviceCard__textWrapper {
+    width: 136px;
+    height: 60px;
+    text-align: center;
+}
+
+.adviceCard p {
+    color: #737373;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 76px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_textWrapper {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
