@@ -394,6 +394,7 @@ section {
 
 .slider {
     overflow: hidden;
+    overflow-x: scroll;
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -716,10 +717,6 @@ section {
     padding: 160px 0;
 }
 
-.section5 .slider .slider__item {
-    transform: translateX(-200px);
-}
-
 .section5 .sliderCard {
     width: 300px;
     max-height: 440px;
@@ -824,10 +821,6 @@ section {
         width: 400px;
     }
 
-    .section5 .slider .slider__item {
-        transform: translateX(-415px);
-    }
-
     .course {
         flex-direction: row;
     }
@@ -887,10 +880,6 @@ section {
 
     .section5 .sliderCard {
         width: 501px;
-    }
-
-    .section5 .slider .slider__item {
-        transform: translateX(-499px);
     }
 
     .footerLinks {
